@@ -1,0 +1,6 @@
+'360':
+    image: janes/alpine-lamp
+    volumes:
+        - ./build:/www/360
+    ports:
+        - "9090:80"
